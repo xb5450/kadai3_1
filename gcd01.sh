@@ -1,6 +1,6 @@
 #!/bin/sh
 
-read -p "二つの自然数を入手してくだい：" a b
+read -p "num1 and num2：" a b
 
 function gcd ()
  {
