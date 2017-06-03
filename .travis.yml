@@ -1,4 +1,4 @@
-language:bash
+language:sh
 script:
   - echo "test of kadai2 start"
   - ./gcd01.sh
