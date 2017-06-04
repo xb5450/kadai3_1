@@ -1,5 +1,4 @@
-language: java
-jdk:
-  - oraclejdk7
-  - openjdk7
-  - openjdk6
+language: bash
+script:
+  - echo "test start"
+  - ./gcd01.sh
