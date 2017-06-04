@@ -1,7 +1,5 @@
 #!/bin/sh
 
-read -p "num1 and num2：" a b
-
 function gcd ()
  {
    num1=$1
@@ -14,5 +12,5 @@ function gcd ()
      num2=$r
    done
  }
- gcd a b
- echo " $a and $b の最大公約数 = $num1"
+ gcd 24 86
+ echo " 24 and 86 の最大公約数 = $num1"
