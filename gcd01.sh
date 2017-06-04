@@ -1,6 +1,6 @@
 #!/bin/sh
 
-function gcd ()
+function gcd()
  {
    num1=$1
    num2=$2
